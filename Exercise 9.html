@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Kristine Castillo">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keyword" content="html, code, form">
+        <meta name="description" content="This wesite contains forms">
+        <title>Registration Form - Kristine Castillo</title>
+    </head>
+    <body style="color: white; background-color: gray;">
+    <font face="Helvetica">
+        <blockquote>
+            <h1 align="center" style="font-size: 45pt">Sign Up Now!</h1>
+            <p style="font-size: 20px;">Fields marked (*) are required</p>
+            <form action="/action_page.php">
+                <fieldset style="width: 70%;">
+                    <legend><h3>Your Details</h3></legend>
+                    <label for="name"></label>
+                    Name* <input type="text" size="103" max="35" name="name" placeholder="Full Name" required/><br>
+                    <label for="email"></label>
+                    Email * <input type="email" size="103" max="20" name="email" placeholder="example@gmail.com" required/><br>
+                    <label for="phone"></label>
+                    Phone * <input type="text" size="102" max="12" name="phone" placeholder="Enter a 12 digit number" required/><br>
+                </fieldset>
+                <fieldset style="width: 70%;">
+                    <legend><h3>Delivery Address</h3></legend>
+                    <label for="address"></label>
+                    Address* <input type="text" size="101" max="40" name="address" placeholder="House/Apartment Number and Street" required/><br>
+                    <label for="District"></label>
+                    District/Barangay* <input type="text" size="92" max="25" name="district" placeholder="Enter your Barangay" required/><br>
+                    <label for="city"></label>
+                    City* <select required>
+                        <option value="Choose">--Choose--</option>
+                        <option value="Baguio City">Baguio City</option>
+                        <option value="Bohol">Bohol</option>
+                        <option value="Cebu City">Cebu City</option>
+                        <option value="Dagupan">Dagupan</option>
+                        <option value="Davao City">Davao City</option>
+                        <option value="Iligan City">Iligan City</option>
+                        <option value="Koronadal City">Koronadal City</option>
+                        <option value="Manila">Manila</option>
+                        <option value="San Nicolas">San Nicolas</option>
+                        <option value="Tarlac">Tarlac</option>
+                    </select><br>
+                    <label for="postal code"></label>
+                    Postal Code* <input type="text" size="97" max="4" name="postal code" placeholder="Enter your Postal Code" required/><br>
+                    <label for="province"></label>
+                    Province* <select required>
+                        <option value="Choose">--Choose--</option>
+                        <option value="Benguet">Benguet</option>
+                        <option value="Bohol">Bohol</option>
+                        <option value="Cebu">Cebu</option>
+                        <option value="Davao Del Sur">Davao Del Sur</option>
+                        <option value="Ilocos Region">Ilocos Region</option>
+                        <option value="Lanao Del Norte">Lanao Del Norte</option>
+                        <option value="Pangasinan">Pangasinan</option>
+                        <option value="South Cotabato">South Cotabato</option>
+                        <option value="Rizal">Rizal</option>
+                        <option value="Tarlac">Tarlac</option>
+                    </select>
+                </fieldset>
+                <fieldset style="width: 70%;">
+                    <legend><h3>Membership Information</h3></legend>
+                    <label for="username"></label>
+                    Username* <input type="text" size="98" max="15" name="username" placeholder="Atleast 8 alphaneumeric characters" required/><br>
+                    <label for="password"></label>
+                    Password * <input type="password" size="98" max="15" name="password" placeholder="Enter a Password" required/><br>
+                    <label for="magazine subscription"></label>
+                    Magazine Subscription <br> <input type="checkbox" name="Magazine Subscription" value="p">PCMagazine<br>
+                                                <input type="checkbox" name="Magazine Subscription" value="w">Wired<br>
+                                                <input type="checkbox" name="Magazine Subscription" value="cw">ComputerWorls<br>
+                                                <input type="checkbox" name="Magazine Subscription" value="iso">I don't Subscribe<br>
+                                                <input type="checkbox" name="Magazine Subscription" value="o">Other<br>
+                </fieldset>
+                <br>
+                <input type="submit" value="Sign Up"/>
+            </form>
+        </blockquote>        
+    </font>      
+    </body>
+</html>

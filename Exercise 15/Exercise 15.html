@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Kristine Castillo">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keyword" content="html, code, form">
+        <meta name="description" content="This wesite contains forms">
+        <title>Exercise 15</title>
+    </head>
+    <body style="margin-left: 40px; font-family: Helvetica;">
+        <h1>Student Information Sheet</h1>
+            <h2>Personal Info</h2>
+            <label for="name">First Name</label>
+            <input style="width: 800px; margin-left: 50px;" id="Name" name="name" type="text" required><br>
+            <label for="age">Age </label>
+            <input type="text" style="width: 800px; margin-left: 100px;" max="2" id="Age" name="age" required><br>
+            <h2>Contact Information</h2>
+            <label for="phone">Phone Number </label>
+            <input type="text" style="width: 800px; margin-left: 20px;" id="Phone" max="12" name="phone" required><br>
+            <label for="email">Email </label>
+            <input type="email" style="width: 800px; margin-left: 87px;" max="20" id="Email" name="email" required><br>
+            <label for="address">Mailing Address </label>
+            <input type="text" style="width: 800px; margin-left: 14px;" max="40" id="Address" name="address" required /><br>
+            <h2>Academic Information</h2>
+            <label for="program">Program </label>
+            <input type="text" style="width: 800px; margin-left: 66px;" max="25" id="Program" name="program" required><br>
+            <label for="ID">ID Number </label>
+            <input type="text" style="width: 800px; margin-left: 50px;" max="8" id="Id" name="IDNumber" required><br>
+            <label for="level">Year Level </label>
+            <input type="text" style="width: 800px; margin-left: 52px;" max="10" id="Level" name="Level" required><br>
+            <label for="section">Section </label>
+            <input type="text" style="width: 800px; margin-left: 74px;" max="5" id="Section" name="section" required><br><br>
+            <button type="enter" onclick='myFunction()'> Submit </button>
+        <br><br>
+        <h2 id="output"></h2>
+        <p id="name"></p>
+        <p id="age"></p>
+        <p id="phone"></p>
+        <p id="email"></p>
+        <p id="address"></p>
+        <p id="program"></p>
+        <p id="id"></p>
+        <p id="level"></p>
+        <p id="section"></p>
+    </body>
+    <script src="../Exercise 15/Exercise 15.js"></script>
+</html>
